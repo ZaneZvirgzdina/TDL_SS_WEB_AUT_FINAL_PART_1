@@ -8,6 +8,7 @@ import InventoryItemPage from "../pageObjects/InventoryItem.page";
 import LoginPage from "../pageObjects/Login.page";
 
 describe("Swag Labs", () => {
+  context('Swag Labs functionality testing', () => {
   beforeEach(() => {
     LoginPage.visit();
   });
@@ -180,5 +181,5 @@ describe("Swag Labs", () => {
   })
 
 
-
+  })
 });
