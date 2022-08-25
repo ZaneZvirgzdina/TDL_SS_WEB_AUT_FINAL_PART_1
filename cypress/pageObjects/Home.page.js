@@ -5,9 +5,9 @@ class HomePage extends BasePage {
     return "/inventory.html";
   }
 
-  static get xxx() {
-    return cy.get("x[y=z]");
-  }
+ 
+
+
 }
 
 export default HomePage;
